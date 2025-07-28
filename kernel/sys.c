@@ -1193,12 +1193,12 @@ SYSCALL_DEFINE1(newuname, struct new_utsname __user *, name)
 
 	down_read(&uts_sem);
 	memcpy(&tmp, utsname(), sizeof(tmp));
-	if (!strncmp(current->comm, "netbpfload", 10) &&
-	    current->pid != netbpfload_pid) {
-		netbpfload_pid = current->pid;
-		strcpy(tmp.release, "6.6.40");
-		pr_debug("fake uname: %s/%d release=%s\n",
-			 current->comm, current->pid, tmp.release);
+	if (!strncmp(current->comm, "bpfloader", 9) ||
+	    !strncmp(current->comm, "netbpfload", 10) ||
+	    !strncmp(current->comm, "netd", 4)) {
+		strcpy(tmp.release, "4.19.280");
+		pr_debug("uname: %s release=%s\n",
+			 current->comm, tmp.release);
 	}
 	up_read(&uts_sem);
 	if (copy_to_user(name, &tmp, sizeof(tmp)))
