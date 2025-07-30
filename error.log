@@ -1,0 +1,303 @@
+make[1]: Entering directory '/workspace/android_kernel_xiaomi_mt6893/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+drivers/input/touchscreen/Kconfig:48:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:8:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:14:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:19:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:28:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:34:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:40:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:46:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:54:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:60:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:66:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:72:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:78:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:84:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:90:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:96:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:102:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:108:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:116:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:121:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:127:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:133:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:17:warning: choice value used outside its choice group
+drivers/input/touchscreen/hxchipset/Kconfig:23:warning: choice value used outside its choice group
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  Using .. as source for kernel
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      arch/arm64/mm/init.o
+  CC      arch/arm64/kernel/setup.o
+  CC      arch/arm64/kernel/kaslr.o
+  AR      arch/arm64/kernel/built-in.o
+  AR      arch/arm64/mm/built-in.o
+  CC      drivers/base/dma-coherent.o
+  CHK     kernel/config_data.h
+  AR      drivers/base/built-in.o
+  CC      sound/soc/mediatek/scp_ultra/mtk-scp-ultra_dump.o
+-- KernelSU-Next version: 12818
+-- KernelSU-Next Manager signature size: 0x3e6
+-- KernelSU-Next Manager signature hash: 79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7
+  AR      sound/soc/mediatek/scp_ultra/snd-soc-mtk-scp-ultra.o
+  AR      sound/soc/mediatek/scp_ultra/built-in.o
+  AR      sound/soc/mediatek/built-in.o
+  AR      sound/soc/built-in.o
+  AR      sound/built-in.o
+  CC      drivers/of/fdt.o
+  CC      drivers/of/fdt_address.o
+  CC      drivers/mmc/host/mediatek/ComboA/mt6885/msdc_cust.o
+  CC      drivers/power/supply/mediatek/battery_ares/mtk_battery.o
+  CC      drivers/of/of_reserved_mem.o
+  CC      drivers/tty/serial/earlycon.o
+  CC      drivers/misc/mediatek/aee/common/aee-common.o
+  CC      drivers/misc/mediatek/aee/mrdump/mrdump_mini.o
+  CC      drivers/power/supply/mediatek/battery_ares/mtk_battery_core.o
+  AR      drivers/mmc/host/mediatek/ComboA/msdc.o
+  AR      drivers/of/built-in.o
+  AR      drivers/mmc/host/mediatek/ComboA/built-in.o
+  AR      drivers/mmc/host/mediatek/built-in.o
+  AR      drivers/mmc/host/built-in.o
+  AR      drivers/mmc/built-in.o
+  AR      drivers/tty/serial/built-in.o
+  AR      drivers/tty/built-in.o
+  CC      drivers/misc/mediatek/boot/mtk_boot_common.o
+  CC      drivers/misc/mediatek/boot_reason/mtk_boot_reason.o
+  AR      drivers/misc/mediatek/aee/common/aee.o
+  CC      drivers/misc/mediatek/audio_ipi/common/tasks/call/audio_ipi_client_phone_call.o
+  AR      drivers/power/supply/mediatek/battery_ares/built-in.o
+  AR      drivers/misc/mediatek/aee/common/built-in.o
+  AR      drivers/power/supply/mediatek/built-in.o
+  CC      drivers/misc/mediatek/audio_ipi/common/framework/audio_ipi_driver.o
+  AR      drivers/power/supply/built-in.o
+../drivers/misc/mediatek/ccu/src/Makefile:29: CCU_MAKE_FILE_CALLED
+  AR      drivers/power/built-in.o
+  CC      drivers/misc/mediatek/apusys/mdla/old_arch/2.1/mdla_main.o
+  CC      drivers/misc/mediatek/ccci_util/ccci_util_lib_fo.o
+  CC      drivers/misc/mediatek/apusys/mnoc/1.0/mnoc_drv.o
+..
+  AR      drivers/misc/mediatek/aee/mrdump/mrdump.o
+..
+  AR      drivers/misc/mediatek/aee/mrdump/built-in.o
+  AR      drivers/misc/mediatek/boot_reason/BOOT_REASON.o
+FDVT: Drv use 5.1 folder
+ BT_PLATFORM = 6893
+ srctree = ..
+  CC      drivers/misc/mediatek/ccci_util/ccci_util_lib_load_img.o
+  AR      drivers/misc/mediatek/aee/built-in.o
+  AR      drivers/misc/mediatek/boot_reason/built-in.o
+  AR      drivers/misc/mediatek/audio_ipi/common/tasks/call/built-in.o
+  AR      drivers/misc/mediatek/audio_ipi/common/tasks/built-in.o
+  AR      drivers/misc/mediatek/audio_ipi/common/framework/built-in.o
+  CC      drivers/misc/mediatek/devinfo/devinfo.o
+..
+..
+  AR      drivers/misc/mediatek/audio_ipi/common/built-in.o
+  AR      drivers/misc/mediatek/audio_ipi/built-in.o
+ConnFem: Customer load
+  CC      drivers/misc/mediatek/dfd/dfd.o
+..
+  CC      drivers/misc/mediatek/apusys/mdla/old_arch/2.1/mdla_cmd_proc.o
+  AR      drivers/misc/mediatek/apusys/mnoc/apusys_mnoc.o
+..
+  AR      drivers/misc/mediatek/apusys/mnoc/built-in.o
+  CC      drivers/misc/mediatek/eccci/modem_sys1.o
+../drivers/misc/mediatek/connectivity/conninfra/Kbuild:37: conninfra build-in boot.img
+../drivers/misc/mediatek/connectivity/conninfra/Kbuild:74: conninfra build mt6893
+[fm_drv:Kbuild] M = 
+[fm_drv:Kbuild] CFG_FM_PLAT = connac2x
+[fm_drv:Kbuild] CFG_BUILD_CONNAC2 = true
+[fm_drv:Kbuild] CFG_FM_CHIP_ID = 
+[fm_drv:Kbuild] CFG_FM_CHIP = mt6635
+..
+[fm_drv:Kbuild] fmradio_drv_connac2x build-in boot.img
+[fm_drv:Kbuild] src = drivers/misc/mediatek/connectivity/fmradio
+[fm_drv:Kbuild] KO_CODE_PATH = ../drivers/misc/mediatek/connectivity/fmradio
+../drivers/misc/mediatek/connectivity/gps/Makefile:17: GPS_CHIP_ID != common
+  AR      drivers/misc/mediatek/boot/BOOT_COMMON.o
+../drivers/misc/mediatek/connectivity/wlan/adaptor/Makefile:55: wmt_chrdev_wifi build-in boot.img
+  CC      drivers/misc/mediatek/base/power/cpumssv_v1/mt6893/mtk_mssv.o
+  AR      drivers/misc/mediatek/boot/built-in.o
+os option: linux
+$MTK_PLATFORM is [mt6885]
+$WLAN_CHIP_ID is [6893]
+$MTK_COMBO_CHIP is [CONNAC2X2_SOC3_0]
+../drivers/misc/mediatek/connectivity/wlan/core/gen4m/Makefile:545: wlan_drv_gen4m build-in boot.img
+$CCFLAG is [{-Wno-unused-variable -Wno-unused-value -Wno-unused-result -Wno-format -Wno-parentheses -UMT6620 -UMT6628 -UMT5931 -UMT6630 -UMT6632 -UMT7663 -UCONNAC -USOC2_1X1 -USOC2_2X2 -UUT_TEST_MODE -UMT7915 -UMT7961 -USOC5_0 -USOC7_0 -DCONFIG_WLAN_MTK_EMI=1 -DCFG_SUPPORT_DEBUG_FS=0 -DWLAN_INCLUDE_PROC -DCFG_SUPPORT_AGPS_ASSIST=0 -DCFG_SUPPORT_TSF_USING_BOOTTIME=1 -DARP_MONITER_ENABLE=1 -Wno-unused-but-set-variable -DLINUX -DSOC3_0 -DCFG_POWER_ON_DOWNLOAD_EMI_ROM_PATCH=1 -DCFG_ROM_PATCH_NO_SEM_CTRL=1 -DCONFIG_MTK_WIFI_HE80 -DCFG_ENABLE_HOST_BUS_TIMEOUT=0 -DCFG_SUPPORT_SET_IPV6_NETWORK=0 -DCFG_SUPPORT_MDDP_AOR=0 -DCFG_TRI_TX_RING=0 -DCFG_ANDORID_CONNINFRA_SUPPORT=1 -DCFG_SUPPORT_CONNAC2X=1 -DCFG_SUPPORT_CONNAC2X_2x2=1 -DCFG_SUPPORT_802_11AX=1 -DCFG_SUPPORT_802_11BE=0 -DCFG_SUPPORT_WIFI_6G=0 -DCFG_SUPPORT_TWT=1 -DCFG_TWT_SMART_STA=0 -DCFG_TWT_STA_DIRECT_TEARDOWN=0 -DCONFIG_NUM_OF_WFDMA_TX_RING=0 -DCONFIG_NUM_OF_WFDMA_RX_RING=3 -DCFG_DRIVER_INITIAL_RUNNING_MODE=3 -DCFG_SUPPORT_DUAL_STA=1 -DCFG_MTK_ANDROID_WMT=1 -DCFG_SUPPORT_CONNINFRA=1 -DCFG_SUPPORT_PRE_ON_PHY_ACTION=1 -I../drivers/misc/mediatek/connectivity/conninfra/include -I../drivers/misc/mediatek/connectivity/power_throttling -DCFG_ANDORID_CONNINFRA_COREDUMP_SUPPORT=1 -I../drivers/misc/mediatek/connectivity/conninfra/include -I../drivers/misc/mediatek/connectivity/conninfra/platform/include -I../drivers/misc/mediatek/connectivity/conninfra/base/include -I../drivers/misc/mediatek/connectivity/conninfra/debug_utility -I../drivers/misc/mediatek/connectivity/conninfra/debug_utility/include -I../drivers/misc/mediatek/connectivity/conninfra/debug_utility/connsyslog -I../drivers/misc/mediatek/connectivity/conninfra/debug_utility/coredump -I../drivers/misc/mediatek/connectivity/conninfra/debug_utility/coredump/platform/include -I../drivers/misc/mediatek/connectivity/conninfra/debug_utility/metlog -I../drivers/misc/mediatek/connectivity/wlan/adaptor -DCFG_SUPPORT_POWER_THROTTLING=0 -DCFG_MTK_ANDROID_EMI=1 -DCFG_WIFI_IP_SET=1 -DCFG_BUILT_IN_DRIVER=1 -DCFG_SUPPORT_CHNL_CONFLICT_REVISE=0 -DCFG_SUPPORT_AEE=1 -DBUILD_QA_DBG=0 -DCFG_WPS_DISCONNECT=1 -D_HIF_AXI=1 -DCFG_DOWNLOAD_DYN_MEMORY_MAP=1 -DCFG_SUPPORT_PASSPOINT=1 -DCFG_HS20_DEBUG=1 -DCFG_MET_PACKET_TRACE_SUPPORT=1 -DCFG_MET_TAG_SUPPORT=0 -DCFG_TC3_FEATURE=0 -DCFG_TC10_FEATURE=0 -DCONFIG_MTK_MD_SUPPORT=1 -DCFG_TC1_FEATURE=0 -DCFG_SUPPORT_NAN=0 -DDBG=0 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/nic -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/mgmt -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/chips -I../drivers/misc/mediatek/base/power/include/ -I../drivers/misc/mediatek/include/mt-plat/ -I../drivers/misc/mediatek/performance/include/ -I../drivers/misc/mediatek/emi/mt6885 -I../drivers/misc/mediatek/emi/submodule -I../drivers/misc/mediatek/pmic/include/ -I../drivers/misc/mediatek/power_throttling/ -I../drivers/misc/mediatek/connectivity/common -I../drivers/devfreq/ -I../net -I../drivers/misc/mediatek/connectivity/connfem/include/ -I../drivers/misc/mediatek/mddp/include/ -DCFG_MTK_MDDP_SUPPORT=1 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/common/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/axi/include -DCONFIG_WLAN_DRV_BUILD_IN=1 -DCFG_SUPPORT_PKT_OFLD=0 -DCONFIG_WLAN_SERVICE=1 -DCONFIG_TEST_ENGINE_OFFLOAD=1 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/service/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/osal/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/hal/include}]
+$MTK_WLAN_SERVICE is [{wlan_service/agent/agent.o wlan_service/service/service_test.o wlan_service/service/test_engine.o wlan_service/glue/osal/gen4m/sys_adaption_gen4m.o wlan_service/glue/osal/gen4m/net_adaption_gen4m.o wlan_service/glue/hal/gen4m/operation_gen4m.o}]
+  AR      drivers/misc/mediatek/dfd/built-in.o
+  CC      drivers/misc/mediatek/eccci/modem_sys3.o
+  CC      drivers/misc/mediatek/apusys/mdla/old_arch/mt6885/mdla_plat.o
+MTK_GPU_VERSION 1 = mali
+  CC      drivers/misc/mediatek/base/power/eemgpu_v2/mt6893/mtk_eemgpu.o
+  AR      drivers/misc/mediatek/base/power/cpumssv_v1/mt6893/built-in.o
+imgsensor drv by common ../common/v1_1/ov64b40sunny_mipi_raw/ ../common/v1_1/ov16a1qofilm_mipi_raw/ ../common/v1_1/gc02m1sunny_mipi_raw/ ../common/v1_1/imx355sunny_mipi_raw/
+imgsensor drv by platform 
+  CC      drivers/misc/mediatek/base/power/eem_v2/mt6893/mtk_eem.o
+  AR      drivers/misc/mediatek/devinfo/built-in.o
+  AR      drivers/misc/mediatek/base/power/cpumssv_v1/built-in.o
+  CC      drivers/misc/mediatek/ccci_util/ccci_util_lib_main.o
+************  drivers/trusty/mtee-kree mk ************
+  CC      drivers/misc/mediatek/irtx/mtk_irtx_pwm.o
+  AR      drivers/misc/mediatek/apusys/mdla/old_arch/mdla.o
+  CC      drivers/misc/mediatek/eccci/hif/ccci_hif_cldma.o
+  CC      drivers/misc/mediatek/base/power/koro/mt6885/mtk_koro.o
+  AR      drivers/misc/mediatek/apusys/mdla/old_arch/built-in.o
+  CC      drivers/misc/mediatek/eccci/hif/ccci_hif_dpmaif.o
+  AR      drivers/misc/mediatek/apusys/mdla/built-in.o
+  AR      drivers/misc/mediatek/apusys/built-in.o
+*MTK_GPU_VERSION 2 = valhall
+  CC      drivers/misc/mediatek/eccci/mt6885/ccci_platform.o
+*MTK_GPU_VERSION 3 = r32p1
+  CC      drivers/misc/mediatek/eccci/mt6885/md_sys1_platform.o
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+  AR      drivers/misc/mediatek/ccci_util/ccci_util_lib.o
+  CC      drivers/misc/mediatek/eccci/port/port_misc.o
+  AR      drivers/misc/mediatek/ccci_util/built-in.o
+  AR      drivers/misc/mediatek/eccci/ccci.o
+  AR      drivers/misc/mediatek/base/power/koro/mt6885/built-in.o
+  AR      drivers/misc/mediatek/irtx/built-in.o
+  CC      drivers/misc/mediatek/imgsensor/src/mt6885/camera_hw/../../common/v1_1/camera_hw/mclk/mclk.o
+  CC      drivers/misc/mediatek/imgsensor/src/mt6885/camera_hw/../../common/v1_1/camera_hw/gpio/gpio.o
+  AR      drivers/misc/mediatek/base/power/koro/built-in.o
+  CC      drivers/misc/mediatek/imgsensor/src/mt6885/camera_hw/../../common/v1_1/camera_hw/imgsensor_cfg_table.o
+  CC      drivers/misc/mediatek/log_store/log_store.o
+  AR      drivers/misc/mediatek/imgsensor/src/mt6885/camera_hw/../../common/v1_1/camera_hw/gpio/built-in.o
+  AR      drivers/misc/mediatek/base/power/eemgpu_v2/mt6893/built-in.o
+  AR      drivers/misc/mediatek/imgsensor/src/mt6885/camera_hw/../../common/v1_1/camera_hw/mclk/built-in.o
+  AR      drivers/misc/mediatek/base/power/eemgpu_v2/built-in.o
+  CC      drivers/misc/mediatek/eccci/port/port_rpc.o
+  AR      drivers/misc/mediatek/base/power/eem_v2/mt6893/built-in.o
+  CC      drivers/misc/mediatek/eccci/hif/ccci_hif_ccif.o
+  AR      drivers/misc/mediatek/imgsensor/src/mt6885/camera_hw/built-in.o
+  AR      drivers/misc/mediatek/base/power/eem_v2/built-in.o
+  AR      drivers/misc/mediatek/imgsensor/src/mt6885/built-in.o
+  AR      drivers/misc/mediatek/imgsensor/src/built-in.o
+  AR      drivers/misc/mediatek/log_store/built-in.o
+  CC      drivers/misc/mediatek/masp/asfv2/module/sec_mod.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_main.o
+  CC      drivers/misc/mediatek/eccci/port/ccci_swtp.o
+  AR      drivers/misc/mediatek/eccci/hif/ccci_hif_all.o
+  AR      drivers/misc/mediatek/eccci/hif/built-in.o
+  AR      drivers/misc/mediatek/eccci/mt6885/ccci.o
+  AR      drivers/misc/mediatek/eccci/mt6885/built-in.o
+*MTK_GPU_VERSION 2 = valhall
+*MTK_GPU_VERSION 3 = r32p1
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_fll.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_cinst.o
+  CC      drivers/misc/mediatek/memory-amms/memory-amms.o
+  CC      drivers/misc/mediatek/memory-ssmr/memory_ssmr.o
+  AR      drivers/misc/mediatek/eccci/port/ccci_port.o
+  AR      drivers/misc/mediatek/eccci/port/built-in.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_drcc.o
+  AR      drivers/misc/mediatek/eccci/built-in.o
+  CC      drivers/misc/mediatek/masp/asfv2/mach/mt6885/security_ao.o
+  CC      drivers/misc/mediatek/ram_console/mtk_ram_console.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_brisket2.o
+  CC      drivers/misc/mediatek/pmic/common/upmu_regulator.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_ctt.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_pdp.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_dt.o
+  CC      drivers/misc/mediatek/pmic/mt6359p/v1/pmic.o
+  AR      drivers/misc/mediatek/masp/sec.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_adcc.o
+  AR      drivers/misc/mediatek/masp/built-in.o
+  CC      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/mtk_ptp3_iglre.o
+  CC      drivers/misc/mediatek/scp/mt6885/scp_awake.o
+  AR      drivers/misc/mediatek/memory-ssmr/built-in.o
+  AR      drivers/misc/mediatek/pmic/common/built-in.o
+  CC      drivers/misc/mediatek/pmic/mt6359p/v1/regulator_codegen.o
+  CC      drivers/misc/mediatek/scp/mt6885/../v02/scp_helper.o
+../drivers/misc/mediatek/sensor/2.0/mtk_nanohub/Makefile:5: "config_mtk_platform:"mt6885""
+  AR      drivers/misc/mediatek/memory-amms/built-in.o
+  AR      drivers/misc/mediatek/base/power/ptp3_v1/mt6893/built-in.o
+  AR      drivers/misc/mediatek/ram_console/built-in.o
+  AR      drivers/misc/mediatek/base/power/ptp3_v1/built-in.o
+"CONFIG_MICROTRUST_TEE_VERSION="400""
+  AR      drivers/misc/mediatek/base/power/built-in.o
+TCORE_UT_TESTS_SUPPORT = n
+TCORE_PROFILING_SUPPORT = n
+TCORE_PROFILING_AUTO_DUMP = n
+TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
+"CONFIG_MICROTRUST_TEE_SUPPORT=y"
+"CONFIG_MICROTRUST_TZ_DRIVER=y"
+"CONFIG_MICROTRUST_VFS_DRIVER=y"
+"CONFIG_MICROTRUST_FP_DRIVER=y"
+"CONFIG_MICROTRUST_DEBUG="
+"CONFIG_MICROTRUST_TEST_DRIVERS="
+  AR      drivers/misc/mediatek/base/built-in.o
+  CC      drivers/misc/mediatek/sspm/mt6885/../v2/sspm_helper.o
+  CC      drivers/misc/mediatek/pmic/mt6359p/v1/pmic_throttling_dlpt.o
+  CC      drivers/misc/mediatek/sspm/mt6885/../v2/sspm_reservedmem.o
+  CC      drivers/misc/mediatek/sspm/mt6885/../v2/sspm_plt.o
+../drivers/misc/mediatek/thermal/common/coolers/Makefile:278: 3 liaoye "mt6885"
+  CC      drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_quiet.o
+  CC      drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_ntc.o
+  AR      drivers/misc/mediatek/scp/mt6885/../v02/scp.o
+  AR      drivers/misc/mediatek/scp/mt6885/../v02/built-in.o
+  AR      drivers/misc/mediatek/scp/mt6885/built-in.o
+  AR      drivers/misc/mediatek/scp/built-in.o
+  AR      drivers/misc/mediatek/pmic/mt6359p/v1/built-in.o
+  AR      drivers/misc/mediatek/pmic/mt6359p/built-in.o
+  AR      drivers/misc/mediatek/pmic/built-in.o
+  AR      drivers/misc/mediatek/sspm/mt6885/../v2/built-in.o
+  AR      drivers/misc/mediatek/sspm/mt6885/built-in.o
+  AR      drivers/misc/mediatek/sspm/built-in.o
+  AR      drivers/misc/mediatek/thermal/common/thermal_zones/built-in.o
+  AR      drivers/misc/mediatek/thermal/common/built-in.o
+  AR      drivers/misc/mediatek/thermal/built-in.o
+  AR      drivers/misc/mediatek/built-in.o
+  AR      drivers/misc/built-in.o
+  AR      drivers/built-in.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.o
+  AR      built-in.o
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  GZIP    arch/arm64/boot/Image.gz
+  DTC     arch/arm64/boot/dts/mediatek/mt6893.dtb
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (reg_format): "reg" property in /spi5@11019000/st54spi@0 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (reg_format): "reg" property in /i2c6@11F01000/ext_buck_vmddr@51 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (reg_format): "reg" property in /i2c6@11F01000/ext_buck_vufs12@56 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (reg_format): "reg" property in /i2c6@11F01000/speaker_amp@34 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (reg_format): "reg" property in /nfc has invalid length (4 bytes) (#address-cells == 2, #size-cells == 2)
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (reg_format): "reg" property in /irq_nfc has invalid length (4 bytes) (#address-cells == 2, #size-cells == 2)
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #address-cells value for /spi5@11019000/st54spi@0
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #size-cells value for /spi5@11019000/st54spi@0
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #address-cells value for /i2c6@11F01000/ext_buck_vmddr@51
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #size-cells value for /i2c6@11F01000/ext_buck_vmddr@51
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #address-cells value for /i2c6@11F01000/ext_buck_vufs12@56
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #size-cells value for /i2c6@11F01000/ext_buck_vufs12@56
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #address-cells value for /i2c6@11F01000/speaker_amp@34
+arch/arm64/boot/dts/mediatek/mt6893.dtb: Warning (avoid_default_addr_size): Relying on default #size-cells value for /i2c6@11F01000/speaker_amp@34
+  CAT     arch/arm64/boot/Image.gz-dtb
+make[1]: Leaving directory '/workspace/android_kernel_xiaomi_mt6893/out'
